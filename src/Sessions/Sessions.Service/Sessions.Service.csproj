@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sessions.Service.Infrastructure\Sessions.Service.Infrastructure.csproj" />
+    <ProjectReference Include="..\Sessions.Service.Library\Sessions.Service.Library.csproj" />
+    <ProjectReference Include="..\Sessions.Repo.Infrastructure\Sessions.Repo.Infrastructure.csproj" />
+    <ProjectReference Include="..\Sessions.Repo.Library\Sessions.Repo.Library.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.13" />
+    <PackageReference Include="VeriClaim.Logging.Infrastructure" Version="1.0.6" />
+    <PackageReference Include="VeriClaim.Logging.Library" Version="1.0.6" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>

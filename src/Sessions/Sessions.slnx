@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="Sessions.Repo.Infrastructure/Sessions.Repo.Infrastructure.csproj" />
+  <Project Path="Sessions.Repo.Library/Sessions.Repo.Library.csproj" />
+  <Project Path="Sessions.Service.Infrastructure/Sessions.Service.Infrastructure.csproj" />
+  <Project Path="Sessions.Service.Library/Sessions.Service.Library.csproj" />
+  <Project Path="Sessions.Service/Sessions.Service.csproj" />
+  <Project Path="Sessions.Tests/Sessions.Tests.csproj" />
+  <Project Path="VeriClaim.SessionState.Client/VeriClaim.SessionState.Client.csproj" />
+</Solution>
